@@ -6,9 +6,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name mylibs --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name mylibs --dest lib packages/index.js",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "element-ui": "^2.15.14",
     "vue": "^2.6.14"
@@ -19,6 +24,7 @@
     "core-js": "^3.8.3",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
+    "standard-version": "^9.5.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
