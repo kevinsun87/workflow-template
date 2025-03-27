@@ -11,6 +11,8 @@ on:
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 关键权限
     steps: 
       - name: 检查master分支
         uses: actions/checkout@master
