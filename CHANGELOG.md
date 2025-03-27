@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](///compare/v0.1.2...v0.1.3) (2025-03-27)
+
+
+### Features
+
+* 加入测试代码 08f78a4
+
+
+### Bug Fixes
+
+* 修改package文件 57cba37
+* 修改workflow文件版本配置 17e8f14
+* 修改workflows文件 c7a3c30
+* 修改workflows文件配置 ee589ab
+* 修改workflows文件node配置 6c9f538
+
 ### 0.1.2 (2025-03-27)
 
 
